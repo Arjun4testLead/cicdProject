@@ -2,23 +2,97 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20321" started-at="2024-09-25T23:43:00Z" finished-at="2024-09-25T23:43:20Z">
+  <suite name="Default suite" duration-ms="18205" started-at="2024-09-30T04:36:00Z" finished-at="2024-09-30T04:36:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20321" started-at="2024-09-25T23:43:00Z" finished-at="2024-09-25T23:43:20Z">
+    <test name="Default test" duration-ms="18205" started-at="2024-09-30T04:36:00Z" finished-at="2024-09-30T04:36:18Z">
       <class name="tests.LoginPageTest">
-        <test-method status="PASS" signature="loginInChromeBrowser()[pri:0, instance:tests.LoginPageTest@402f32ff]" name="loginInChromeBrowser" duration-ms="6778" started-at="2024-09-25T19:43:00Z" finished-at="2024-09-25T19:43:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@4439f31e]" name="setup" is-config="true" duration-ms="270" started-at="2024-09-30T00:36:00Z" finished-at="2024-09-30T00:36:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginInChromeBrowser -->
-        <test-method status="PASS" signature="loginInEdgeFoxBrowser()[pri:0, instance:tests.LoginPageTest@402f32ff]" name="loginInEdgeFoxBrowser" duration-ms="5715" started-at="2024-09-25T19:43:07Z" finished-at="2024-09-25T19:43:13Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethodrequirements(java.lang.reflect.Method)[pri:0, instance:tests.LoginPageTest@4439f31e]" name="setupMethodrequirements" is-config="true" duration-ms="0" started-at="2024-09-30T00:36:00Z" finished-at="2024-09-30T00:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginPageTest.login_In_Chrome_Browser()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginInEdgeFoxBrowser -->
-        <test-method status="PASS" signature="loginInFireFoxBrowser()[pri:0, instance:tests.LoginPageTest@402f32ff]" name="loginInFireFoxBrowser" duration-ms="7810" started-at="2024-09-25T19:43:13Z" finished-at="2024-09-25T19:43:20Z">
+        </test-method> <!-- setupMethodrequirements -->
+        <test-method status="PASS" signature="login_In_Chrome_Browser()[pri:0, instance:tests.LoginPageTest@4439f31e]" name="login_In_Chrome_Browser" duration-ms="5504" started-at="2024-09-30T00:36:00Z" finished-at="2024-09-30T00:36:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginInFireFoxBrowser -->
+        </test-method> <!-- login_In_Chrome_Browser -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.LoginPageTest@4439f31e]" name="afterTestMethod" is-config="true" duration-ms="1105" started-at="2024-09-30T00:36:06Z" finished-at="2024-09-30T00:36:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginPageTest.login_In_Chrome_Browser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="setupMethodrequirements(java.lang.reflect.Method)[pri:0, instance:tests.LoginPageTest@4439f31e]" name="setupMethodrequirements" is-config="true" duration-ms="0" started-at="2024-09-30T00:36:07Z" finished-at="2024-09-30T00:36:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginPageTest.login_In_Edge_FoxBrowser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethodrequirements -->
+        <test-method status="PASS" signature="login_In_Edge_FoxBrowser()[pri:0, instance:tests.LoginPageTest@4439f31e]" name="login_In_Edge_FoxBrowser" duration-ms="4091" started-at="2024-09-30T00:36:07Z" finished-at="2024-09-30T00:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_In_Edge_FoxBrowser -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.LoginPageTest@4439f31e]" name="afterTestMethod" is-config="true" duration-ms="1065" started-at="2024-09-30T00:36:11Z" finished-at="2024-09-30T00:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginPageTest.login_In_Edge_FoxBrowser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="login_In_FireFox_Browser()[pri:0, instance:tests.LoginPageTest@4439f31e]" name="login_In_FireFox_Browser" duration-ms="5233" started-at="2024-09-30T00:36:12Z" finished-at="2024-09-30T00:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_In_FireFox_Browser -->
+        <test-method status="PASS" signature="setupMethodrequirements(java.lang.reflect.Method)[pri:0, instance:tests.LoginPageTest@4439f31e]" name="setupMethodrequirements" is-config="true" duration-ms="0" started-at="2024-09-30T00:36:12Z" finished-at="2024-09-30T00:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginPageTest.login_In_FireFox_Browser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethodrequirements -->
+        <test-method status="PASS" signature="afterTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.LoginPageTest@4439f31e]" name="afterTestMethod" is-config="true" duration-ms="911" started-at="2024-09-30T00:36:17Z" finished-at="2024-09-30T00:36:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginPageTest.login_In_FireFox_Browser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="afterTestSuite()[pri:0, instance:tests.LoginPageTest@4439f31e]" name="afterTestSuite" is-config="true" duration-ms="286" started-at="2024-09-30T00:36:18Z" finished-at="2024-09-30T00:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
       </class> <!-- tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
