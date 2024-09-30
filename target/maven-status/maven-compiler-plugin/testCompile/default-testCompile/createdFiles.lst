@@ -1,2 +1,5 @@
+pages\A.class
 tests\Base.class
 tests\LoginPageTest.class
+pages\B.class
+pages\C.class
